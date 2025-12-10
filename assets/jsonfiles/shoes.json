@@ -14,7 +14,7 @@
         "description": "Casual grey and white high-top sneakers featuring convenient velcro straps and textured fabric panels.",
         "price": 25,
         "color": "Grey",
-        "location": "./assets/images/shoes/grey-sneakers.jpg",
+        "location": "./assets/images/shoes/grey-sneaker.jpg",
         "stock": 3
     },
     {
