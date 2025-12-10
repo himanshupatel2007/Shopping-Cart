@@ -1,0 +1,34 @@
+[
+    {
+        "category": "Shirt",
+        "productname": "Navy Shirt",
+        "description": "A deep navy blue button-down featuring distinctive red-and-white striped lining on the cuffs and inner collar.",
+        "price": 20,
+        "color": "Navy Blue",
+              "location": "./assets/images/shirts/navy-shirt.jpg"
+    },
+    {
+        "category": "Shirt",
+        "productname": "White Shirt",
+        "description": "A crisp, classic white dress shirt with a chest pocket, tucked into trousers for a timeless, polished look.",
+        "price": 15,
+        "color": "White",
+            "location": "./assets/images/shirts/white-shirt.jpg"
+    },
+    {
+        "category": "Shirt",
+        "productname": "Light Blue Shirt",
+        "description": " A relaxed light blue oxford shirt worn with the collar unbuttoned, paired with dark pants and sunglasses.",
+        "price": 20,
+        "color": "Blue",
+            "location": "./assets/images/shirts/light-blue-shirt.jpg"
+    },
+    {
+        "category": "Shirt",
+        "productname": "Olive Green Shirt",
+        "description": "A muted olive green button-down shirt worn untucked over black jeans, offering a casual, earthy aesthetic.",
+        "price": 30,
+        "color": "Green",
+            "location": "./assets/images/shirts/green-shirt.jpg"
+    }
+]

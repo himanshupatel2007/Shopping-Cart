@@ -1,0 +1,34 @@
+[
+    {
+        "category": "Jeans",
+        "productname": "Light Wash Jeans",
+        "description": "Relaxed light blue denim jeans with subtle fading, styled here with a casual plaid shirt.",
+        "price": 25,
+        "color": "Blue",
+        "location": "./assets/images/jeans/light-washed-jeans.jpg"
+    },
+    {
+        "category": "Jeans",
+        "productname": "Black Pants",
+        "description": "Slim-fit solid black trousers that create a sleek silhouette, contrasting sharply with white sneakers.",
+        "price": 45,
+        "color": "Black",
+        "location": "./assets/images/jeans/black-pants.jpg"
+    },
+    {
+        "category": "Jeans",
+        "productname": "Cream Chinos",
+        "description": "Classic beige chino pants with a straight-leg cut, serving as a neutral base for a denim-on-denim look.",
+        "price": 50,
+        "color": "Cream",
+        "location": "./assets/images/jeans/cream-chinos.jpg"
+    },
+    {
+        "category": "Jeans",
+        "productname": "Navy Jeans",
+        "description": "Dark blue skinny jeans featuring light whiskering and cuffed hems, perfect for active, everyday wear.",
+        "price": 35,
+        "color": "Navy Blue",
+        "location": "./assets/images/jeans/navy-jeans.jpg"
+    }
+]

@@ -1,0 +1,34 @@
+[
+    {
+        "category": "Shoes",
+        "productname": "Brown Dress Shoes",
+        "description": "Polished dark brown leather oxfords with a sleek, tapered toe, perfect for formal or business attire.",
+        "price": 15,
+        "color": "Brown",
+         "location": "./assets/images/shoes/brown-formals.jpg"
+    },
+    {
+        "category": "Shoes",
+        "productname": "Grey High-Tops",
+        "description": "Casual grey and white high-top sneakers featuring convenient velcro straps and textured fabric panels.",
+        "price": 25,
+        "color": "Grey",
+         "location": "./assets/images/shoes/grey-sneakers.jpg"
+    },
+    {
+        "category": "Shoes",
+        "productname": "Navy High-Tops",
+        "description": "Stylish navy blue high-top sneakers that mix matte and patent leather finishes with matching laces",
+        "price": 10,
+        "color": "Navy Blue",
+         "location": "./assets/images/shoes/blue-hightop.jpg"
+    },
+    {
+        "category": "Shoes",
+        "productname": "White Sneakers",
+        "description": "Clean, chunky white platform sneakers with a thick sole and a contrasting black accent on the heel.",
+        "price": 30,
+        "color": "White",
+         "location": "./assets/images/shoes/white-sneakers.jpg"
+    }
+]

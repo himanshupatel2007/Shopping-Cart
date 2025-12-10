@@ -1,0 +1,34 @@
+[
+    {
+        "category": "Hat",
+        "productname": "Grey Fedora",
+        "description": "A textured grey fabric fedora featuring a classic pinched crown and a contrasting black ribbon band.",
+        "price": 15,
+        "color": "Grey",
+        "location": "./assets/images/hat/grey-hat.jpg"
+    },
+    {
+        "category": "Hat",
+        "productname": "Brown Sun Hat",
+        "description": "LA woven brown straw hat with a black band, pictured poolside for a relaxed, summery style.",
+        "price": 25,
+        "color": "Brown",
+        "location": "./assets/images/hat/brown-hat.jpg"
+    },
+    {
+        "category": "Hat",
+        "productname": "Dark Straw Hat",
+        "description": "A dark grey woven straw fedora with a wide black ribbon band and a short, upturned brim.",
+        "price": 10,
+        "color": "Dark Grey",
+        "location": "./assets/images/hat/gray-hat.jpg"
+    },
+    {
+        "category": "Hat",
+        "productname": "Cream Bucket Hat",
+        "description": "A simple, casual cream-colored bucket hat made of cotton canvas with a stitched, downward-sloping brim.",
+        "price": 30,
+        "color": "Cream",
+        "location": "./assets/images/hat/cream-hat.jpg"
+    }
+]
