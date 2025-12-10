@@ -78,5 +78,6 @@ submitbutton.addEventListener("click", (event) => {
 function openwebsite() {
     console.log("website logged in")
     document.querySelector(".loginpage").classList.add("hide")
+    document.querySelector(".mainpage").classList.remove("hide")
    document.title = "Shopping Kart"
 }
