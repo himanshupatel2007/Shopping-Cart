@@ -42,6 +42,15 @@ document.querySelector(".cart").addEventListener("click", () => {
     rendercart()
 })
 
+// Moved outside to prevent adding multiple event listeners
+let clearbtn = document.querySelector(".clearcartbutton")
+if(clearbtn) {
+    clearbtn.addEventListener("click", ()=>{
+        cart = []
+        rendercart()
+    })
+}
+
 function clearfilter() {
     container.innerHTML = ""
     numberresult.textContent = `Showing : X`
@@ -52,10 +61,10 @@ function clearfilter() {
     container.classList.remove("hide")
 }
 
-function display(value) {
+function display(category) {
    
     
-    let value = `./assets/jsonfiles/${value}.json`
+    let value = `./assets/jsonfiles/${category}.json`
     
     fetch(value)
         .then(response => response.json())
@@ -142,6 +151,7 @@ function rendercart(){
     if(cart.length === 0){
         cartsection.innerHTML = "<h1>Your Cart is Empty</h1>"
         calculatetotal()
+        return
     }
 
     cart.forEach((data, index) => {
@@ -193,11 +203,11 @@ function rendercart(){
 
         minbtn.addEventListener("click", ()=>{
             cart[index].quantity = cart[index].quantity - 1
-             calculatetotal()
+             rendercart()
         })
         maxbtn.addEventListener("click", ()=>{
             cart[index].quantity = cart[index].quantity + 1
-              calculatetotal()
+             rendercart()
         })
 
         // Remove Button
@@ -257,12 +267,6 @@ function calculatetotal(){
     h3all[1].textContent = `Subtotal : ${subtotal}$`
     h3all[2].textContent = `Discount : -${discount}$ (${message})`
     h3all[3].textContent = `Final Price : ${final}$`
-
-    let clearbtn = document.querySelector(".clearcartbutton")
-    clearbtn.addEventListener("click", ()=>{
-        cart = []
-        rendercart()
-    })
 }
 
 logoutbtn.addEventListener("click", () => {
