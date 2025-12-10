@@ -8,29 +8,32 @@
     <link rel="stylesheet" href="./assets/css files/login.css">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="./assets/images/favicon/icons8-fast-cart-32.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css files/style.css">
 </head>
 
 <body>
-    <h1>
+   <div class="loginpage">
+     <h1>
         Welcome to Shopping Kart
     </h1>
 
 
     <form id="MyForm">
         <div class="head">
-            <button id="activated" class="selected login">login</button>
+            <button  class="activated login">Login</button>
             <button class="signup">SignUp</button>
         </div>
         <div class="labelbox">Username:</div>
         <input id="UserName" type="text" placeholder="Enter Username..">
         <div class="labelbox">Password</div>
         <div class="passwordbox"> <input type="password" id="Passcode" placeholder="Enter Password">
-            <button class="eye" id="showpass">🔓</button>
+            <button class="eye" id="showpass">🔒</button>
         </div>
 
         <button class="submitbtn" type="submit">Submit</button>
     </form>
-    <script src="script.js"></script>
+   </div>
+    <script src="./assets/script files/login.js"></script>
 </body>
 
 </html>
