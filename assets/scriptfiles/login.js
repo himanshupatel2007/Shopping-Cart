@@ -6,7 +6,6 @@ const eye = document.querySelector(".eye")
 const passvalue = document.querySelector("#Passcode")
 let forminputtype = "Login"
 
-
 //defining for login
 loginform.addEventListener("click", (event) => {
     event.preventDefault();
@@ -61,7 +60,8 @@ submitbutton.addEventListener("click", (event) => {
             openwebsite();
         }
         else {
-            window.alert("No user found")
+            window.alert("No user found. Sign Up")
+            signupform.click();
             return;
         }
     }
@@ -78,8 +78,5 @@ submitbutton.addEventListener("click", (event) => {
 function openwebsite() {
     console.log("website logged in")
     document.querySelector(".loginpage").classList.add("hide")
+   document.title = "Shopping Kart"
 }
-
-
-
-

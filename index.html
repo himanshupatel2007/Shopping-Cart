@@ -5,35 +5,149 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login/SignUp</title>
-    <link rel="stylesheet" href="./assets/cssfiles/login.css">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="./assets/images/favicon/icons8-fast-cart-32.png" type="image/x-icon">
-    <link rel="stylesheet" href="./assets/cssfiles/style.css">
-    <link rel="stylesheet" href="./assets/cssfiles/cart.css">
+
+    <link rel="stylesheet" href="./assets/cssfiles/mainpage.css">
+    <link rel="stylesheet" href="./assets/cssfiles/login.css">
+
 </head>
 
 <body>
-   <div class="loginpage hide">
-     <h1>
-        Welcome to Shopping Kart
-    </h1>
+    <div class="loginpage hide ">
+        <h1 class="loginhead">
+            Welcome to Shopping Kart
+        </h1>
 
 
-    <form id="MyForm">
-        <div class="head">
-            <button  class="activated login">Login</button>
-            <button class="signup">SignUp</button>
+        <form id="MyForm">
+            <div class="head">
+                <button class="activated login">Login</button>
+                <button class="signup">SignUp</button>
+            </div>
+            <div class="labelbox">Username:</div>
+            <input id="UserName" class="act" type="text" placeholder="Enter Username..">
+            <div class="labelbox">Password</div>
+            <div class="passwordbox"> <input class="act" type="password" id="Passcode" placeholder="Enter Password">
+                <button class="eye" id="showpass">🔒</button>
+            </div>
+
+            <button class="submitbtn" type="submit">Submit</button>
+        </form>
+    </div>
+
+    <div class="mainpage ">
+        <div class="navbar">
+            <span class="logo">
+                <img class="navlogo" src="./assets/images/shopping-cart.png" alt="Logo">
+                <h1>Shopping Kart</h1>
+            </span>
+
+            <div class="searchbox">
+                <input type="text" class="searchbar" placeholder="Search Shopping Kart">
+                <button class="searchbutton">Search</button>
+            </div>
+
+            <span class="profilebox">
+                <img class="profileimage" src="./assets/images/shopping-cart.png" alt="profile">
+                <div class="username">Logout</div>
+            </span>
         </div>
-        <div class="labelbox">Username:</div>
-        <input id="UserName" type="text" placeholder="Enter Username..">
-        <div class="labelbox">Password</div>
-        <div class="passwordbox"> <input type="password" id="Passcode" placeholder="Enter Password">
-            <button class="eye" id="showpass">🔒</button>
-        </div>
+        <div class="content-wrapper">
+            <div class="sidebar">
+                <div class="cart">Cart</div>
+                <div class="orders">Orders</div>
+                <div class="favourite">Favourite</div>
+                <div class="languagelabel">
+                    <label for="language-select">Choose Language:</label>
+                    <select id="language-select">
+                        <option value="en">English</option>
+                        <option value="hi">Hindi</option>
+                        <option value="es">Spanish</option>
+                        <option value="fr">French</option>
+                    </select>
+                </div>
+            </div>
+            <div class="maincontent ">
+                <div class="filterbox">
+                    <label>Filters :</label>
+                    <button>Jeans</button>
+                    <button>Jeans</button>
+                    <button>Jeans</button>
+                    <button>Jeans</button>
+                    <button>Jeans</button>
+                    <button class="clearbutton">Clear Filters</button>
 
-        <button class="submitbtn" type="submit">Submit</button>
-    </form>
-   </div>
+                </div>
+                <hr>
+                <div class="resultnumbers">
+
+                    <label for="range">Range</label>
+                    <span class="min">0</span>
+                    <input type="range" min="0" max="100" id="range">
+                    <span class="max">100</span>
+                    <br>
+                    <div class="results">Showing : X</div>
+                </div>
+                <div class="productslist">
+
+                    <div class="cartitems ">
+                        <div class="product ">
+                            <img src="./assets/images/hat/brown-hat.jpg" alt="brown hat">
+                            <div class="details">
+                                <h2 class="productname">Product Name</h2>
+                                <p class="productdetails">A textured grey fabric fedora featuring a classic pinched
+                                    crown and a
+                                    contrasting black ribbon band.</p>
+                                <h2 class="priceofproduct">25$</h2>
+                                <div class="productcolor">
+                                    <span>O</span>
+                                    <p>Red</p>
+                                    <br>
+
+                                </div>
+                                <div class="cartoperations">
+                                    <p>Quantity :</p>
+                                    <button>-</button>
+                                    <p>0</p>
+                                    <button>+</button>
+
+                                </div>
+                            </div>
+                            <button class="buybtn">BUY</button>
+                        </div>
+
+                    </div>
+                </div>
+
+<div class="cartresult">
+    <h3>Items in Cart : X</h3>
+    <h3>Subtotal  : X</h3>
+    <h3>Discount  : X</h3>
+    <h3>Final  Price  : X</h3>
+    <button class="clearcartbutton">Clear Cart</button>
+</div>
+                <div class="product ">
+                    <img src="./assets/images/hat/brown-hat.jpg" alt="brown hat">
+                    <div class="details">
+                        <h2 class="productname">Product Name</h2>
+                        <p class="productdetails">A textured grey fabric fedora featuring a classic pinched crown and a
+                            contrasting black ribbon band.</p>
+                        <h2 class="priceofproduct">25$</h2>
+                        <div class="productcolor">
+                            <span>O</span>
+                            <p>Red</p>
+
+                        </div>
+                        <button class="add">
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
     <script src="./assets/scriptfiles/login.js"></script>
     <script src="./assets/scriptfiles/website.js"></script>
 </body>
