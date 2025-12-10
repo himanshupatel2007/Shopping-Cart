@@ -5,7 +5,8 @@
         "description": "A thick, chunky cable-knit turtleneck in a rich blue shade, featuring a high collar that offers maximum warmth.",
         "price": 50,
         "color": "Blue",
-        "location" : "./assets/images/sweaters/blue-sweater.jpg"
+        "location": "./assets/images/sweaters/blue-sweater.jpg",
+        "stock": 3
     },
     {
         "category": "Sweaters",
@@ -13,7 +14,8 @@
         "description": "A vibrant, oversized red knit sweater with a slouchy, high ribbed collar and loose sleeves for a relaxed fit.",
         "price": 40,
         "color": "Red",
-        "location" : "./assets/images/sweaters/red-sweater.jpg"
+        "location": "./assets/images/sweaters/red-sweater.jpg",
+        "stock": 3
     },
     {
         "category": "Sweaters",
@@ -21,14 +23,16 @@
         "description": " A heavy, loose-knit beige pullover with a thick rolled neckline and wide ribbed hem, perfect for casual layering.",
         "price": 65,
         "color": "Biege",
-        "location" : "./assets/images/sweaters/beige-sweater.jpg"
+        "location": "./assets/images/sweaters/beige-sweater.jpg",
+        "stock": 3
     },
     {
         "category": "Sweaters",
         "productname": "Grey Sweater",
         "description": "A classic grey wool sweater featuring a traditional Nordic-style Fair Isle pattern across the chest and upper arms.",
-        "price" : 55,
+        "price": 55,
         "color": "Grey",
-        "location" : "./assets/images/sweaters/grey-sweater.jpg"
+        "location": "./assets/images/sweaters/grey-sweater.jpg",
+        "stock": 3
     }
 ]
